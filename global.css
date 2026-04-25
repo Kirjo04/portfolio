@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
 }
 
+
 /* NAVBAR */
 header {
     position: sticky;
@@ -204,6 +205,12 @@ h2 {
 #project-card_landscape_img{
     width: 50%;
     height: auto;
+}
+
+.persona_row{
+    display: flex;
+    align-content: center;
+    gap: 1.5rem;
 }
 
 /* CONTACT */
