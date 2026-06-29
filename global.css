@@ -141,8 +141,8 @@ h2 {
 /* PROJECT GRID */
 
 .project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
     gap: 30px;
 }
 
@@ -159,6 +159,10 @@ h2 {
     width: 100%;
     display: block;
     border-radius: 0.5rem;
+}
+
+#tablet-img{
+    width: 25%;
 }
 
 .project-card h3 {
