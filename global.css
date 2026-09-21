@@ -256,12 +256,6 @@ footer {
     color: #666;
 }
 
-
-.project_hero_img {
-    width: 18.75px;
-    padding-right: 2rem;
-}
-
 .hero_landscape{
     width: 15rem;
 }
@@ -410,5 +404,187 @@ footer {
 
     .tablet {
         width: 100%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+
+    /* HERO */
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .hero-sec1 {
+        flex-direction: column;
+    }
+
+    .my_img {
+        width: 40%;
+    }
+
+
+    /* GENERAL SECTIONS */
+    section {
+        padding: 50px 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+
+    /* FEATURED PROJECT */
+    .featured-project {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+        gap: 20px;
+    }
+
+    .featured-project_img {
+        width: 100%;
+    }
+
+
+    /* PROJECT GRID */
+    .project-grid {
+        flex-direction: column;
+    }
+
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-card img,
+    #tablet-img,
+    #project-card_landscape_img {
+        width: 100%;
+    }
+
+    .project_card_contents {
+        padding-top: 15px;
+    }
+
+
+    /* PERSONAS */
+    .persona_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* PROJECT HERO */
+    .project-hero {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .project-hero h1 {
+        font-size: 36px;
+    }
+
+    .project_hero_img {
+        width: 100px;
+        padding-right: 0;
+    }
+
+    .hero_landscape {
+        width: 100%;
+        max-width: 250px;
+    }
+
+
+    /* PROJECT DETAILS */
+    .project-details {
+        padding: 40px 20px;
+    }
+
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* PROJECT CONTENT */
+    .project-section {
+        padding: 1.5rem 20px;
+    }
+
+
+    /* FINAL RESULT */
+    #final_result {
+        flex-direction: column;
+    }
+
+
+    /* IMAGE ROWS */
+    .image-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+
+    .image-row img,
+    #datavis img {
+        width: 100%;
+    }
+
+
+    /* PROCESS IMAGES */
+    .process {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .process img,
+    .process #BV {
+        width: 100%;
+    }
+
+
+    /* VIDEOS */
+    .display_video {
+        width: 100%;
+    }
+
+    .tablet {
+        width: 100%;
+    }
+
+
+    /* TEAM IMAGE */
+    .team_project_img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+
+    /* CONTACT */
+    .contact {
+        padding: 50px 20px;
+    }
+
+
+    /* BACK LINK */
+    .back-link {
+        padding: 40px 20px;
     }
 }
