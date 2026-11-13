@@ -258,6 +258,7 @@ footer {
     max-width: 900px;
     margin: auto;
     text-align: center;
+    justify-items: center;
 }
 
 /* BOTTOM HALF */
