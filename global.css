@@ -237,6 +237,12 @@ footer {
     flex-direction: row;
 }
 
+.overview_section{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
 .project-subtitle {
     color: #666;
 }
