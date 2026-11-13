@@ -281,43 +281,6 @@ footer {
 }
 
 /* FINAL RESULT IMAGES */
-.mobile img {
-    width: 200px;
-    height: auto;
-}
-
-.desktop img {
-    width: 600px;
-    height: auto;
-}
-
-.tablet {
-    width: 400px;
-    max-width: 100%;
-}
-
-/* IMAGE ROWS */
-.image-row {
-    display: flex;
-    gap: 3rem;
-    margin: 2rem;
-    justify-content: center;
-}
-
-.image-row img {
-    width: 20%;
-    border-radius: 1rem;
-}
-
-#datavis img {
-    width: 40%;
-}
-
-.full-image {
-    width: 100%;
-    margin-top: 30px;
-    border-radius: 8px;
-}
 
 /* TEAM PROJECT */
 .team_project_img {
