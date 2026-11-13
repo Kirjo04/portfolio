@@ -275,7 +275,8 @@ footer {
 /* PROJECT CONTENT */
 .project-section {
     padding: 2rem;
-    
+    max-width: 1150px;
+    margin: auto;
 }
 
 .project-section h2 {
