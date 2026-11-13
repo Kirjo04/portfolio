@@ -94,6 +94,11 @@ header {
     transition: background 0.2s;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .btn:hover {
     background: rgb(0, 62, 0);
 }
