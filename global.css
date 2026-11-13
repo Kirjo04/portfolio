@@ -255,10 +255,9 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    max-width: 900px;
     margin: auto;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
 }
 
 /* BOTTOM HALF */
