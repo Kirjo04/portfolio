@@ -50,9 +50,6 @@ header {
     color: rgb(19, 222, 12);
 }
 
-#contact a:hover{
-    color: rgb(19, 222, 12);
-}
 
 /* HOMEPAGE HERO */
 .hero {
@@ -344,6 +341,13 @@ footer {
 
 .back-link a:hover {
     color: #e5e5e5;
+}
+
+#contact a{
+    color: black;
+}
+#contact a:hover{
+    color: rgb(19, 222, 12);
 }
 
 /* TABLET */
