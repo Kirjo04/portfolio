@@ -131,8 +131,7 @@ h2 {
 
 /* PROJECT GRID: 2 COLUMNS */
 .project-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     gap: 2.5rem;
     align-items: stretch;
     max-width: 1400px;
