@@ -50,6 +50,10 @@ header {
     color: rgb(19, 222, 12);
 }
 
+#contact a:hover{
+    color: rgb(19, 222, 12);
+}
+
 /* HOMEPAGE HERO */
 .hero {
     display: flex;
@@ -304,25 +308,6 @@ footer {
 }
 
 /* PROJECT 2: VIDEO */
-.display_video {
-    width: 20%;
-    border-radius: 1rem;
-}
-
-.figma-embed {
-    width: 320px;
-    height: 650px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.figma-embed iframe {
-    width: 320px;
-    height: 650px;
-    border: none;
-    transform: scale(0.8);
-    transform-origin: top left;
-}
 
 /* PROCESS IMAGES */
 .process {
