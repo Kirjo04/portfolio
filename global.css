@@ -99,6 +99,11 @@ header {
     transition: background 0.2s;
 }
 
+#home_page_btn{
+    width: 10rem;
+    align-self: center;
+}
+
 a {
     text-decoration: none;
     color: black;
