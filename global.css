@@ -28,6 +28,7 @@ header {
     border-bottom: 1px solid #e5e5e5;
 }
 
+
 .logo {
     font-size: 20px;
     font-weight: bold;
@@ -78,6 +79,10 @@ header {
     gap: 1rem;
 }
 
+.hero-sec2{
+    gap: 1.5rem;
+}
+
 .my_img {
     width: 15%;
     border-radius: 10rem;
@@ -85,7 +90,6 @@ header {
 
 .btn {
     display: inline-block;
-    margin-top: 25px;
     padding: 12px 28px;
     background: darkgreen;
     color: white;
@@ -96,7 +100,7 @@ header {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .btn:hover {
@@ -130,7 +134,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-/* PROJECT GRID: 2 COLUMNS */
+/* PROJECT GRID*/
 .project-row {
     display: flex;
     gap: 2.5rem;
@@ -270,6 +274,7 @@ footer {
     text-align: center;
     justify-content: center;
 }
+
 
 /* BOTTOM HALF */
 .bottom_half {
@@ -455,9 +460,8 @@ footer {
         margin-bottom: 30px;
     }
 
-    .project-grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
+    .project-row {
+        flex-direction: column;
     }
 
     .project-card>img {
