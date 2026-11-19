@@ -152,6 +152,7 @@ h2 {
     border-radius: 1rem;
     overflow: hidden;
     background: white;
+    gap: 1rem;
     border-radius: 1rem;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
     transition: transform 0.25s, box-shadow 0.25s;
