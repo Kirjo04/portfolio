@@ -261,7 +261,7 @@ footer {
 .figma_embed {
   width: 50%;
   max-width: 100%;
-  aspect-ratio: 200/600;
+  aspect-ratio: 200/400;
   margin: 0 auto;
   border-radius: 32px;
   overflow: hidden;
