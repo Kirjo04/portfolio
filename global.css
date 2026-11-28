@@ -297,12 +297,7 @@ footer {
     justify-content: center;
 }
 
-
-/* BOTTOM HALF */
-.bottom_half {
-    display: flex;
-    flex-direction: column;
-}
+/* PROJECT CONTENT */
 
 /* PROJECT CONTENT */
 .project-section {
@@ -316,43 +311,131 @@ footer {
     text-align: center;
 }
 
-/* FINAL RESULT */
-#final_result {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.project-section h3 {
+    margin: 25px 0 15px;
 }
 
-/* FINAL RESULT IMAGES */
-
-/* TEAM PROJECT */
-.team_project_img {
-    width: 200px;
+.project-section p {
+    margin-bottom: 16px;
+    line-height: 1.7;
 }
 
-/* PROJECT 2: VIDEO */
-
-/* PROCESS IMAGES */
-.process {
-    display: flex;
-    justify-content: center;
+.project-section img {
+    max-width: 100%;
+    height: auto;
 }
 
-.process img {
+/* RESEARCH */
+.research,
+.modeling,
+.requirements,
+.frameworks {
+    margin-bottom: 60px;
+}
+
+/* PROBLEM STATEMENT */
+.research blockquote {
+    margin: 20px 30px;
+    padding: 15px 25px;
+    border-left: 4px solid #71ad71;
+    background-color: #f5fcf5;
+    line-height: 1.7;
+}
+
+/* INTERVIEW & AFFINITY MAP IMAGES */
+.research img {
+    display: block;
     width: 75%;
+    margin: 20px auto;
 }
 
-.process #BV {
+/* BEHAVIOR VARIABLES */
+#BV {
     width: 100%;
 }
 
 /* PERSONAS */
-.persona_row {
+.personas {
     display: flex;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     gap: 1.5rem;
+    margin: 25px 0;
 }
+
+.personas img {
+    width: 50%;
+    object-fit: contain;
+}
+
+/* CONTEXT SCENARIOS */
+.context_scenarios {
+    margin-top: 35px;
+}
+
+.context_scenarios img {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* REQUIREMENTS */
+.requirements img {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* FRAMEWORKS & DESIGN */
+.frameworks > img {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* MY DESIGN CONTRIBUTIONS */
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 25px 0;
+}
+
+.image-row img {
+    width: calc(25% - 1.125rem);
+    object-fit: contain;
+}
+
+/* FINAL RESULT */
+.final_result {
+    padding: 2rem;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.final_result h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.final_result p {
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+#final_result {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.display_video {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
 
 /* BACK LINK */
 .back-link {
@@ -377,6 +460,7 @@ footer {
     color: rgb(19, 222, 12);
 }
 
+
 /* TABLET */
 @media (max-width: 900px) {
 
@@ -390,6 +474,7 @@ footer {
         padding: 60px 30px;
     }
 
+    .project-row,
     .project-grid {
         gap: 24px;
     }
@@ -424,10 +509,22 @@ footer {
         padding: 30px;
     }
 
+    /* IMAGE ROW */
     .image-row {
-        gap: 2rem;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .image-row img {
+        width: calc(50% - 12px);
+    }
+
+    /* PERSONAS */
+    .personas {
+        gap: 1rem;
     }
 }
+
 
 /* MOBILE */
 @media (max-width: 600px) {
@@ -473,7 +570,7 @@ footer {
         font-size: 28px;
     }
 
-    /* PROJECT GRID: 1 COLUMN */
+    /* PROJECT GRID */
     .projects {
         padding: 50px 20px;
     }
@@ -531,7 +628,40 @@ footer {
         padding: 24px 20px;
     }
 
+    .project-section h2 {
+        font-size: 28px;
+    }
+
+    /* RESEARCH IMAGES */
+    .research img {
+        width: 100%;
+    }
+
+    .research blockquote {
+        margin: 20px 0;
+        padding: 12px 15px;
+    }
+
+    /* PERSONAS */
+    .personas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personas img {
+        width: 100%;
+    }
+
+    /* CONTEXT SCENARIOS */
+    .context_scenarios img {
+        width: 100%;
+    }
+
     /* FINAL RESULT */
+    .final_result {
+        padding: 24px 20px;
+    }
+
     #final_result {
         flex-direction: column;
     }
@@ -549,17 +679,6 @@ footer {
         width: 100%;
     }
 
-    /* PROCESS IMAGES */
-    .process {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .process img,
-    .process #BV {
-        width: 100%;
-    }
-
     /* VIDEOS */
     .display_video {
         width: 100%;
@@ -573,12 +692,6 @@ footer {
     .team_project_img {
         width: 100%;
         max-width: 200px;
-    }
-
-    /* PERSONAS */
-    .persona_row {
-        flex-direction: column;
-        align-items: center;
     }
 
     /* CONTACT */
